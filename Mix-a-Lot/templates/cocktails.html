@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mix-a-Lot Cocktails</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            height: 480px;
+            width: 800px;
+            overflow: hidden;
+            position: relative;
+            background: #1a1a1a;
+            color: white;
+        }
+
+        .cocktail-carousel {
+            display: flex;
+            transition: transform 0.3s ease-out;
+            height: 100%;
+        }
+
+        .cocktail-card {
+            min-width: 800px;
+            height: 480px;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .cocktail-content {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            padding: 20px;
+            position: relative;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .progress-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 50;
+        }
+
+        .ingredient-progress {
+            width: 80%;
+            height: 20px;
+            background: #2d3748;
+            border-radius: 10px;
+            margin: 5px 0;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            background: #4299e1;
+            transition: width 0.1s linear;
+        }
+
+        .swipe-hint {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: swipe 2s infinite;
+            opacity: 0.7;
+        }
+
+        @keyframes swipe {
+            0%, 100% { transform: translateX(-70px); }
+            50% { transform: translateX(70px); }
+        }
+
+        /* Custom scrollbar for ingredients list */
+        .ingredients-list::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .ingredients-list::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
+
+        .ingredients-list::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-gray-900">
