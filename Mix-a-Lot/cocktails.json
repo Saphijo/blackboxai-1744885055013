@@ -1,0 +1,74 @@
+{
+  "cocktails": [
+    {
+      "normal_name": "Vodka Cola",
+      "fun_name": "Fizzy Bubbly Bliss",
+      "ingredients": {
+        "Vodka": "2 oz",
+        "Coke": "4 oz"
+      }
+    },
+    {
+      "normal_name": "Whiskey Sour",
+      "fun_name": "Sour Power",
+      "ingredients": {
+        "Whisky": "2 oz",
+        "Simple Syrup": "0.5 oz",
+        "Lime Juice": "0.75 oz",
+        "Bitters": "2 dashes"
+      }
+    },
+    {
+      "normal_name": "Gin and Tonic",
+      "fun_name": "Tonic Twist",
+      "ingredients": {
+        "Gin": "2 oz",
+        "Tonic Water": "4 oz",
+        "Lime Juice": "0.5 oz"
+      }
+    },
+    {
+      "normal_name": "Daiquiri",
+      "fun_name": "Tropical Shakedown",
+      "ingredients": {
+        "Rum": "2 oz",
+        "Lime Juice": "1 oz",
+        "Simple Syrup": "0.5 oz"
+      }
+    },
+    {
+      "normal_name": "Margarita",
+      "fun_name": "Citrus Snap",
+      "ingredients": {
+        "Tequila": "2 oz",
+        "Triple Sec": "1 oz",
+        "Lime Juice": "1 oz"
+      }
+    },
+    {
+      "normal_name": "Tequila Sunrise",
+      "fun_name": "Dawn's Delight",
+      "ingredients": {
+        "Tequila": "2 oz",
+        "Orange Juice": "4 oz",
+        "Grenadine": "0.5 oz"
+      }
+    },
+    {
+      "normal_name": "Rum and Coke",
+      "fun_name": "Caribbean Cooler",
+      "ingredients": {
+        "Rum": "2 oz",
+        "Coke": "4 oz"
+      }
+    },
+    {
+      "normal_name": "Whiskey Highball",
+      "fun_name": "Smooth Operator",
+      "ingredients": {
+        "Whisky": "2 oz",
+        "Coke": "4 oz"
+      }
+    }
+  ]
+}
