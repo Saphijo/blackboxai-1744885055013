@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Mix-a-Lot
+Comment=Cocktail Mixing Interface
+Exec=/home/pi/Mix-a-Lot/run_cocktails.sh
+Path=/home/pi/Mix-a-Lot
+Terminal=false
+Categories=Application
+X-GNOME-Autostart-enabled=true
