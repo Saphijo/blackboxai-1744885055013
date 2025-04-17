@@ -1,0 +1,81 @@
+{
+  "pumps": [
+    {
+      "id": 1,
+      "gpio_pin": 27,
+      "direction_pin": 17,
+      "assigned_liquid": "Rum",
+      "calibration": {
+        "ml_per_second": 1.5
+      }
+    },
+    {
+      "id": 2,
+      "gpio_pin": 18,
+      "direction_pin": 23,
+      "assigned_liquid": "Cola",
+      "calibration": {
+        "ml_per_second": 1.5
+      }
+    },
+    {
+      "id": 3,
+      "gpio_pin": 5,
+      "direction_pin": 6,
+      "assigned_liquid": "Lime Juice",
+      "calibration": {
+        "ml_per_second": 1.5
+      }
+    },
+    {
+      "id": 4,
+      "gpio_pin": 13,
+      "direction_pin": 19,
+      "assigned_liquid": "Syrup",
+      "calibration": {
+        "ml_per_second": 1.5
+      }
+    },
+    {
+      "id": 5,
+      "gpio_pin": 20,
+      "direction_pin": 21,
+      "assigned_liquid": "Water",
+      "calibration": {
+        "ml_per_second": 1.5
+      }
+    },
+    {
+      "id": 6,
+      "gpio_pin": 26,
+      "direction_pin": 4,
+      "assigned_liquid": "Orange Juice",
+      "calibration": {
+        "ml_per_second": 1.5
+      }
+    },
+    {
+      "id": 7,
+      "gpio_pin": 15,
+      "direction_pin": 7,
+      "assigned_liquid": "Pineapple Juice",
+      "calibration": {
+        "ml_per_second": 1.5
+      }
+    },
+    {
+      "id": 8,
+      "gpio_pin": 9,
+      "direction_pin": 10,
+      "assigned_liquid": "Grenadine",
+      "calibration": {
+        "ml_per_second": 1.5
+      }
+    }
+  ],
+  "safety": {
+    "emergency_stop_pin": 3,
+    "overflow_protection_ml": 500,
+    "max_parallel_pumps": 3
+  }
+}
