@@ -1,0 +1,35 @@
+/* Custom styles beyond Tailwind */
+.pump-card {
+    transition: all 0.2s ease-in-out;
+}
+
+.pump-card:hover {
+    transform: translateY(-2px);
+}
+
+.status-badge {
+    transition: all 0.3s ease;
+}
+
+.btn-test {
+    transition: all 0.15s ease-in-out;
+}
+
+.btn-test:active {
+    transform: scale(0.98);
+}
+
+.toast-notification {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
